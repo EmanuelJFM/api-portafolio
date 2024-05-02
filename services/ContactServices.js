@@ -11,7 +11,6 @@ class ContactServices {
             }
         });
     }
-
     async sendEmail(contactData) {
         const contact = new Contact(contactData.name,contactData.email, contactData.subject, contactData.content);
 
